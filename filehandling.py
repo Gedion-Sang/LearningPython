@@ -1,12 +1,5 @@
 # File handling 
-fileobject = open("helloworld.py", 'w')
 
-# Write the code to the file
-
-fileobject.write("print('Hello, World!')")
-
-# Close the file
-
-fileobject.close()
+fileobject = open("read.txt", 'a')
 
 # Execute the code in the file
